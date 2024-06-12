@@ -10,54 +10,56 @@ Responsive design: The UI is designed to be responsive and user-friendly.
 ## Technologies Used
 
 ### Backend
-Node.js
-Express
-MongoDB (with Mongoose for object modeling)
-JWT for authentication
+* Node.js
+* Express
+* MongoDB (with Mongoose for object modeling)
+* JWT for authentication
 
 ### Frontend
-Next.js 14
-TypeScript
-Tailwind CSS for styling
+* Next.js 14
+* TypeScript
+* Tailwind CSS for styling
 
 ## Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/personal-blog-platform.git
-Install dependencies:
+1. Clone the repository:
 
-bash
-Copy code
+``` bash
+git clone [https://github.com/yourusername/personal-blog-platform.git](https://github.com/AyushBarai/Personal-Blog-Platform.git)
+``` 
+
+2. Install dependencies:
+
+``` bash
 cd personal-blog-platform
-cd backend && npm install
-cd ../frontend && npm install
-Set up environment variables:
+cd .\backend\
+npm install
+cd ..
+cd .\frontend\ 
+npm install
+```
 
-Create a .env file in the backend directory and add your MongoDB connection string and JWT secret.
+3. Set up environment variables:
 
-Example .env file:
+For easy accessibility for the evaluator, .env file is already included and all the values are temp values randomly selected for this specific repo. But the .env file should not be included in the Git repo and will be deleted after a week or two.
 
-plaintext
-Copy code
-MONGODB_URI=mongodb://localhost:27017/personal-blog
-JWT_SECRET=yoursecretkey
-Start the backend server:
+4. Start the backend server:
 
-bash
-Copy code
-cd ../backend && npm run dev
-Start the frontend server:
+``` bash
+cd .\backend\
+npm run dev
+```
+5. Start the frontend server:
 
-bash
-Copy code
-cd ../frontend && npm run dev
-Access the application at http://localhost:3000.
+``` bash
+cd .\frontend\
+npm run dev
+``` 
+6. Access the Frontend application at http://localhost:3000.
 
-API Endpoints
-POST /signup: Registers a new user with email and password.
-POST /login: Authenticates a user and returns a session token.
-POST /post: Allows authenticated users to post a new article.
-GET /posts: Retrieves all posts.
-GET /posts?author=userId: Retrieves posts by a specific author.
+## API Endpoints
+* POST /signup: Registers a new user with email and password.
+* POST /login: Authenticates a user and returns a session token.
+* POST /post: Allows authenticated users to post a new article.
+* GET /posts: Retrieves all posts.
+* GET /posts?author=userId: Retrieves posts by a specific author.
