@@ -1,26 +1,26 @@
-#Personal Blog Platform
+# Personal Blog Platform
 This project is a personal blog platform where users can sign up, log in, and post articles. It provides a backend built with Node.js and Express and a frontend using Next.js 14 with TypeScript.
 
-##Features
+## Features
 User authentication: Users can sign up, log in, and access their dashboard.
 Posting articles: Authenticated users can create and publish articles.
 Viewing posts: All users can view all posts or filter them by author.
 Responsive design: The UI is designed to be responsive and user-friendly.
 
-##Technologies Used
+## Technologies Used
 
-###Backend
+### Backend
 Node.js
 Express
 MongoDB (with Mongoose for object modeling)
 JWT for authentication
 
-###Frontend
+### Frontend
 Next.js 14
 TypeScript
 Tailwind CSS for styling
 
-##Installation
+## Installation
 Clone the repository:
 
 bash
